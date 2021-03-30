@@ -1,0 +1,282 @@
+[debug] [2021-03-30T07:05:08.177Z] ----------------------------------------------------------------------
+[debug] [2021-03-30T07:05:08.179Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2021-03-30T07:05:08.180Z] CLI Version:   9.8.0
+[debug] [2021-03-30T07:05:08.180Z] Platform:      win32
+[debug] [2021-03-30T07:05:08.180Z] Node Version:  v15.3.0
+[debug] [2021-03-30T07:05:08.182Z] Time:          Tue Mar 30 2021 10:05:08 GMT+0300 (Восточная Европа, летнее время)
+[debug] [2021-03-30T07:05:08.182Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-30T07:05:08.196Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-30T07:05:08.199Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\PROGA\Lessons\React\Projects\Vladilen_Minin\REACT_BIG_COURSE\react-qiuzz
+
+[error] 
+[error] Error: Aborted by user.
+[debug] [2021-03-30T07:05:17.918Z] ----------------------------------------------------------------------
+[debug] [2021-03-30T07:05:17.921Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2021-03-30T07:05:17.921Z] CLI Version:   9.8.0
+[debug] [2021-03-30T07:05:17.921Z] Platform:      win32
+[debug] [2021-03-30T07:05:17.921Z] Node Version:  v15.3.0
+[debug] [2021-03-30T07:05:17.923Z] Time:          Tue Mar 30 2021 10:05:17 GMT+0300 (Восточная Европа, летнее время)
+[debug] [2021-03-30T07:05:17.924Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-30T07:05:17.937Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-30T07:05:17.940Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\PROGA\Lessons\React\Projects\Vladilen_Minin\REACT_BIG_COURSE\react-qiuzz
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-03-30T07:05:25.778Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-03-30T07:05:26.303Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-03-30T07:05:26.304Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project rect-quiz-42d5c ( rect-quiz) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-03-30T07:05:36.459Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-03-30T07:05:37.282Z] FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: unable to get local issuer certificate
+    at ClientRequest.<anonymous> (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:1461:11)
+    at ClientRequest.emit (node:events:376:20)
+    at ClientRequest.EventEmitter.emit (node:domain:470:12)
+    at TLSSocket.socketErrorListener (node:_http_client:490:9)
+    at TLSSocket.emit (node:events:376:20)
+    at TLSSocket.EventEmitter.emit (node:domain:470:12)
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:153:3)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+[error] 
+[error] Error: Failed to make request to https://www.gstatic.com/firebasejs/releases.json
+[debug] [2021-03-30T07:22:02.820Z] ----------------------------------------------------------------------
+[debug] [2021-03-30T07:22:02.823Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2021-03-30T07:22:02.823Z] CLI Version:   9.8.0
+[debug] [2021-03-30T07:22:02.823Z] Platform:      win32
+[debug] [2021-03-30T07:22:02.823Z] Node Version:  v15.3.0
+[debug] [2021-03-30T07:22:02.825Z] Time:          Tue Mar 30 2021 10:22:02 GMT+0300 (Восточная Европа, летнее время)
+[debug] [2021-03-30T07:22:02.825Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-30T07:22:02.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-30T07:22:02.840Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\PROGA\Lessons\React\Projects\Vladilen_Minin\REACT_BIG_COURSE\react-qiuzz
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-03-30T07:22:25.282Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"react-quiz","name":"react-quiz"}
+[debug] [2021-03-30T07:22:26.223Z] <<< HTTP RESPONSE 409 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Tue, 30 Mar 2021 07:22:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=732","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-30T07:22:26.224Z] <<< HTTP RESPONSE BODY {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2021-03-30T07:22:26.658Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:376:20)
+    at Request.EventEmitter.emit (node:domain:470:12)
+    at Request.<anonymous> (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:376:20)
+    at Request.EventEmitter.emit (node:domain:470:12)
+    at IncomingMessage.<anonymous> (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:482:28)
+    at IncomingMessage.emit (node:events:388:22)
+    at IncomingMessage.EventEmitter.emit (node:domain:470:12)
+    at endReadableNT (node:internal/streams/readable:1294:12)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID react-quiz. Please try again with a unique project ID.
+[debug] [2021-03-30T07:22:39.421Z] ----------------------------------------------------------------------
+[debug] [2021-03-30T07:22:39.424Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2021-03-30T07:22:39.424Z] CLI Version:   9.8.0
+[debug] [2021-03-30T07:22:39.424Z] Platform:      win32
+[debug] [2021-03-30T07:22:39.424Z] Node Version:  v15.3.0
+[debug] [2021-03-30T07:22:39.426Z] Time:          Tue Mar 30 2021 10:22:39 GMT+0300 (Восточная Европа, летнее время)
+[debug] [2021-03-30T07:22:39.426Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-30T07:22:39.436Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-30T07:22:39.439Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\PROGA\Lessons\React\Projects\Vladilen_Minin\REACT_BIG_COURSE\react-qiuzz
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-03-30T07:23:14.175Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"new-react-quiz","name":"quizzz"}
+[debug] [2021-03-30T07:23:15.176Z] <<< HTTP RESPONSE 409 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Tue, 30 Mar 2021 07:23:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=839","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-30T07:23:15.177Z] <<< HTTP RESPONSE BODY {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2021-03-30T07:23:15.601Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:376:20)
+    at Request.EventEmitter.emit (node:domain:470:12)
+    at Request.<anonymous> (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:376:20)
+    at Request.EventEmitter.emit (node:domain:470:12)
+    at IncomingMessage.<anonymous> (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:482:28)
+    at IncomingMessage.emit (node:events:388:22)
+    at IncomingMessage.EventEmitter.emit (node:domain:470:12)
+    at endReadableNT (node:internal/streams/readable:1294:12)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID new-react-quiz. Please try again with a unique project ID.
+[debug] [2021-03-30T07:23:36.809Z] ----------------------------------------------------------------------
+[debug] [2021-03-30T07:23:36.811Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2021-03-30T07:23:36.812Z] CLI Version:   9.8.0
+[debug] [2021-03-30T07:23:36.812Z] Platform:      win32
+[debug] [2021-03-30T07:23:36.812Z] Node Version:  v15.3.0
+[debug] [2021-03-30T07:23:36.813Z] Time:          Tue Mar 30 2021 10:23:36 GMT+0300 (Восточная Европа, летнее время)
+[debug] [2021-03-30T07:23:36.814Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-30T07:23:36.826Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-30T07:23:36.828Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\PROGA\Lessons\React\Projects\Vladilen_Minin\REACT_BIG_COURSE\react-qiuzz
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-03-30T07:24:05.717Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"newreactquiz1","name":"newreactquiz234"}
+[debug] [2021-03-30T07:24:06.752Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 30 Mar 2021 07:24:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=851","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-30T07:24:06.759Z] > refreshing access token with scopes: []
+[debug] [2021-03-30T07:24:06.759Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-30T07:24:06.972Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 30 Mar 2021 07:24:08 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-30T07:24:06.983Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 [none]
+[debug] [2021-03-30T07:24:08.015Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 200
+[debug] [2021-03-30T07:24:08.016Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 {"name":"operations/cp.5069274541332181656"}
+[debug] [2021-03-30T07:24:08.528Z] [Project Creation Poller] Retrying task index 0
+[debug] [2021-03-30T07:24:08.528Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 [none]
+[debug] [2021-03-30T07:24:09.582Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 200
+[debug] [2021-03-30T07:24:09.583Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 {"name":"operations/cp.5069274541332181656","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2021-03-30T07:24:10.593Z] [Project Creation Poller] Retrying task index 0
+[debug] [2021-03-30T07:24:10.594Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 [none]
+[debug] [2021-03-30T07:24:11.599Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 200
+[debug] [2021-03-30T07:24:11.600Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5069274541332181656 {"name":"operations/cp.5069274541332181656","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"417002268468","projectId":"newreactquiz1","lifecycleState":"ACTIVE","name":"newreactquiz234","createTime":"2021-03-30T07:24:07.831Z"}}
+[debug] [2021-03-30T07:24:11.604Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-30T07:24:11.604Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-30T07:24:11.777Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 30 Mar 2021 07:24:13 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-30T07:24:11.784Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/newreactquiz1:addFirebase  
+ 
+[debug] [2021-03-30T07:24:15.258Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 30 Mar 2021 07:24:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-30T07:24:15.260Z] > refreshing access token with scopes: []
+[debug] [2021-03-30T07:24:15.260Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-30T07:24:15.427Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Tue, 30 Mar 2021 07:24:16 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-30T07:24:15.434Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx [none]
+[debug] [2021-03-30T07:24:16.352Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx 200
+[debug] [2021-03-30T07:24:16.353Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx {"name":"operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx"}
+[debug] [2021-03-30T07:24:16.857Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-03-30T07:24:16.858Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx [none]
+[debug] [2021-03-30T07:24:17.732Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx 200
+[debug] [2021-03-30T07:24:17.733Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx {"name":"operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx"}
+[debug] [2021-03-30T07:24:18.734Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-03-30T07:24:18.735Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx [none]
+[debug] [2021-03-30T07:24:19.253Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx 200
+[debug] [2021-03-30T07:24:19.254Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx {"name":"operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx"}
+[debug] [2021-03-30T07:24:21.265Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-03-30T07:24:21.266Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx [none]
+[debug] [2021-03-30T07:24:22.090Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx 200
+[debug] [2021-03-30T07:24:22.091Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx {"name":"operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx"}
+[debug] [2021-03-30T07:24:26.108Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-03-30T07:24:26.109Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx [none]
+[debug] [2021-03-30T07:24:26.641Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx 200
+[debug] [2021-03-30T07:24:26.642Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx {"name":"operations/workflows/YmZkZmRiZjktODRlNi00YjY2LTg1YmEtNjIyYmY0OTM4NDEx","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"newreactquiz1","projectNumber":"417002268468","displayName":"newreactquiz234","name":"projects/newreactquiz1","resources":{"hostingSite":"newreactquiz1"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: newreactquiz1
+[info]    - Project Name: newreactquiz234
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/newreactquiz1/overview
+[info] i  Using project newreactquiz1 (newreactquiz234) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-03-30T07:24:38.548Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-03-30T07:24:39.381Z] FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: unable to get local issuer certificate
+    at ClientRequest.<anonymous> (C:\Users\Fake\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:1461:11)
+    at ClientRequest.emit (node:events:376:20)
+    at ClientRequest.EventEmitter.emit (node:domain:470:12)
+    at TLSSocket.socketErrorListener (node:_http_client:490:9)
+    at TLSSocket.emit (node:events:376:20)
+    at TLSSocket.EventEmitter.emit (node:domain:470:12)
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:153:3)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+[error] 
+[error] Error: Failed to make request to https://www.gstatic.com/firebasejs/releases.json
